@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Blog() {
     return (
-        <div className="mx-[3%]">
+        <div>
             <h1 className="text-3xl font-bold">Blog</h1>
             <div className="flex flex-row">
                 <div className="flex flex-col justify-center">

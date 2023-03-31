@@ -19,24 +19,24 @@ export default function Home() {
     })
     return (
         <div>
-            {/*
-            <div ref={sliderRef} className="keen-slider">
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide1"
-                     className="keen-slider__slide number-slide1"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide2"
-                     className="keen-slider__slide number-slide2"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide3"
-                     className="keen-slider__slide number-slide3"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide4"
-                     className="keen-slider__slide number-slide4"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide5"
-                     className="keen-slider__slide number-slide5"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide6"
-                     className="keen-slider__slide number-slide6"/>
-                <img src="https://www.itisfermi.edu.it/wp-content/img/slide7"
-                     className="keen-slider__slide number-slide7"/>
-            </div>
-            */}
+            {
+                <div ref={sliderRef} className="keen-slider">
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide1"
+                         className="keen-slider__slide number-slide1"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide2"
+                         className="keen-slider__slide number-slide2"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide3"
+                         className="keen-slider__slide number-slide3"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide4"
+                         className="keen-slider__slide number-slide4"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide5"
+                         className="keen-slider__slide number-slide5"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide6"
+                         className="keen-slider__slide number-slide6"/>
+                    <img src="https://www.itisfermi.edu.it/wp-content/img/slide7"
+                         className="keen-slider__slide number-slide7"/>
+                </div>
+            }
             <div className="flex flex-col justify-center space-y-4">
                 <h1 className="text-3xl font-bold">From School To School</h1>
                 <p>Our application created just for you.</p>
