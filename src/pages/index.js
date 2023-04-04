@@ -19,7 +19,7 @@ export default function Home() {
     })
     return (
         <div>
-            {
+            {/*
                 <div ref={sliderRef} className="keen-slider">
                     <img src="https://www.itisfermi.edu.it/wp-content/img/slide1"
                          className="keen-slider__slide number-slide1"/>
@@ -36,7 +36,7 @@ export default function Home() {
                     <img src="https://www.itisfermi.edu.it/wp-content/img/slide7"
                          className="keen-slider__slide number-slide7"/>
                 </div>
-            }
+            */}
             <div className="flex flex-col justify-center space-y-4">
                 <h1 className="text-3xl font-bold">From School To School</h1>
                 <p>Our application created just for you.</p>
