@@ -8,7 +8,7 @@ export default function Document() {
             <Head/>
             <body>
             <Navbar/>
-            <div className="mx-[3%]">
+            <div className="mx-[3%] mt-3">
                 <Main/>
             </div>
             <div className="absolute bottom-0 w-full">
